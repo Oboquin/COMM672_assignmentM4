@@ -1,0 +1,140 @@
+body {
+    width: 960px;
+    max-width: 100%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #EFEFEF;
+    border: 2px solid #222E50;
+    padding: 5px;
+    border-radius: 5px;
+    color: #B3679B;
+}
+
+a:active {
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #b42f7a;
+    font-weight: bold;
+}
+
+a:link {
+    color: #B3679B;
+}
+
+/* Features Page */
+
+.features {
+    width: 33%;
+    border: 2px solid #222E50;
+    border-radius: 35px;
+    padding: 25px;
+    text-align: center;
+}
+
+#cat-care, #quizzes, #community {
+    text-align: center;
+    font-weight: bold;
+}
+
+.features-title {
+    font-weight: bold;
+}
+
+td:first-child:not([colspan]) { 
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+}
+
+.feature-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.feature-container p {
+    text-align: center;
+}
+
+.feature-container img {
+    border-radius: 25px;
+
+}
+
+.features p:first-child {
+    text-align: center;
+}
+
+
+.features p:nth-child(2) {
+    text-align: center;
+}
+
+.feature-container .back-to-top {
+    text-align: right;
+}
+
+/* Community Pag */
+
+.community {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.events {
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.events:nth-child(1) img {
+    width: 100%;
+    padding-bottom: 25px;
+    border-bottom: 10px solid #7CA982;
+}
+
+.events:nth-child(2) img {
+    width: 100%;
+    padding-bottom: 25px;
+    border-bottom: 10px solid #E6A563;
+}
+
+.events:nth-child(3) img {
+    width: 100%;
+    padding-bottom: 25px;
+    border-bottom: 10px solid #B36793;
+}
+
+.event-date {
+    font-weight: bold;
+}
+
+.event-time {
+    font-style: italic;
+}

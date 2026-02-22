@@ -45,10 +45,14 @@ a:active {
     color: pink;
 }
 
-ul { list-style-type: none; }
-    display: none;
-
+.management-team {
+    list-style: none;
+}
 
 .management-team li:first-child {
     color: blue;
+}
+
+.management-team li:last-child {
+    color:blue;
 }
